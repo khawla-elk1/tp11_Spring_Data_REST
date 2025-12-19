@@ -22,25 +22,7 @@ Client : Défini par un ID, un nom, et un email. Un client peut posséder plusie
 
 Compte : Défini par un ID, un solde, une date de création et un type (ÉPARGNE/COURANT). Chaque compte appartient à un client (@ManyToOne).
 
-🛠️ Installation et Configuration
-Cloner le projet :
-
-Bash
-
-git clone https://github.com/votre-username/tp11-ms-banque.git
-Configuration de la base de données : Par défaut, l'application utilise une base H2. La console est accessible à l'adresse suivante après le lancement : http://localhost:8080/h2-console
-
-JDBC URL : jdbc:h2:mem:testdb
-
-User : sa
-
-Password : (vide)
-
-Lancement : Exécutez la classe MsBanqueApplication depuis votre IDE ou via terminal :
-
-Bash
-
-mvn spring-boot:run
+🛠️
 📋 Endpoints Principaux
 Grâce à Spring Data REST, vous pouvez accéder aux ressources via :
 
